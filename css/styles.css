@@ -653,7 +653,7 @@ img {
 
 .backdrop.is-hidden .modal {
 	transform: translate(-50%, -50%) scale(0.9);
-	transition: transform 350ms linear;
+	transition: transform 150ms linear 150ms;
 }
 
 /*==============portfolio================*/
