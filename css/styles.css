@@ -787,8 +787,13 @@ img {
 	opacity: 1;
 }
 
-.product-cards-design:hover .content-overlay,
-.product-cards-design:focus .content-overlay {
+.product-cards-design:hover .content-overlay {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.product-cards-link:hover .content-overlay,
+.product-cards-link:focus .content-overlay {
 	transform: translateY(0);
 	opacity: 1;
 }
